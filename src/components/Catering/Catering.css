@@ -1,0 +1,46 @@
+.catering-container {
+  background-color: #D1D1D1;
+  /* background-color: red; */
+  background: linear-gradient(#00000091, #00000091), url('../../assets/Catering/Catering-banner.webp');
+  background-position: center;
+  background-size: cover;
+}
+.index{
+  color: rgba(255, 255, 255, 0.884) !important;
+}
+.centered-text {
+  text-align: center;
+}
+
+/* .package{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.catering-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.catering-image-box{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.catering-image-box img{
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .catering-image-box{
+    width: 550px;
+    height: 350px
+  }
+  
+}

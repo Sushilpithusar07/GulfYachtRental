@@ -1,0 +1,116 @@
+.packages-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), 
+  url('../../assets/charter/90ft/90ft_2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffff;
+  height: 100vh;
+  padding: 15% 0 0;
+  margin-bottom: 30px;
+}
+.packages-hero-content h1{
+  font-size: 40px;
+  padding: 10px;
+}
+.packages-hero p{
+  padding: 0 15%;
+}
+
+
+.packages-hero-content{
+  /* color: white; */
+  padding: 50px 50px 0;
+  /* text-align: center; */
+  line-height: 1.6;
+  /* background-color: #5555; */
+}
+.packages-hero-content h1,h2,h3{
+  text-align: center;
+}
+.packages-hero-content p{
+  padding: 1% 5% 4%;
+}
+.negativeSpace{
+  margin-bottom: -60px;
+}
+.packages-hero-content ul {
+  list-style: none;
+  padding: 1% 5% 4%;
+}
+
+.packages{
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  padding: 5%;
+}
+.package{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+}
+.package img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.package-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1; 
+  transition: opacity .3s, visibility .3s;
+}
+.package-overlay h1{
+  text-align: center;
+  color: #fff;
+}
+/* .package:hover .package-overlay{
+  opacity: 1; 
+} */
+
+@media (max-width: 700px) {
+  .packages-hero-content p{
+    padding: 1% 0% 4%;
+  }
+  .packages-hero-content ul {
+    list-style: none;
+    padding: 1% 0% 4%;
+  }
+  .packages-hero-content h1,h2,h3{
+   font-size: 1rem;
+  }
+  .packages-hero-content p{
+    font-size: 14px;
+  }
+  .packages-hero-content{
+    padding: 30px;
+  }
+  .packages-hero h1{
+    font-size: 33px;
+  }
+  .packages-hero p{
+    padding: 0 7%;
+    font-size: 15px;
+  }
+  .packages-hero{
+    padding: 30% 0 0;
+  }
+  
+}

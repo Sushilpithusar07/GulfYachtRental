@@ -1,0 +1,45 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+
+  <!-- Yachts Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/yachts</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+  
+  <!-- Fishing Trips Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/fishingTrips</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+  
+  <!-- Charter Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/charter</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+  
+  <!-- Packages Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/packages</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+  
+  <!-- New Year Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/newYear</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+  
+  <!-- About Us Page -->
+  <url>
+    <loc>https://www.gulfyachtsdubai.com/about</loc>
+    <lastmod>2024-08-23T10:01:48+00:00</lastmod>
+  </url>
+</urlset>

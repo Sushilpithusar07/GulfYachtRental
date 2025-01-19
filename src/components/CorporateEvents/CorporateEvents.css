@@ -1,0 +1,52 @@
+.corporateEvents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  color: white;
+  padding: 100px 0;
+}
+
+.corporate-content{
+  color: #8F8F8F;
+  text-align: center;
+  padding-top: 20px;
+}
+.event {
+  /* height: 500px; */
+  width: 500px;
+  margin: 15px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.description h2 {
+  margin-top: 0;
+  font-size: larger;
+  padding: 0 5px 5px;
+}
+
+.description p {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .corporateEvents {
+    margin: 40px 10px;
+    padding: 70px 10px;
+  }
+  
+}

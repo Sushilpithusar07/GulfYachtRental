@@ -1,0 +1,46 @@
+.birthday-container {
+  background-color: #D1D1D1;
+  /* background-color: red; */
+  background: linear-gradient(#00000091, #00000091), url('../../assets/Birthday/BirthdayBanner.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.index{
+  color: rgba(255, 255, 255, 0.884) !important;
+}
+.centered-text {
+  text-align: center;
+}
+
+.package{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.birthday-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.birthday-image-box{
+  height: 400px;
+  width: 500px;
+  overflow: hidden;
+}
+.birthday-image-box img{
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .birthday-image-box{
+    width: 550px;
+    height: 200px
+  }
+  
+}

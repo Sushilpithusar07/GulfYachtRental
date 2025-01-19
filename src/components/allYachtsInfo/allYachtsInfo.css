@@ -1,0 +1,143 @@
+.allYachtsInfo{
+  background-color: #D1D1D1;
+  padding-top: 10%;
+}
+.yachtInfo{
+  padding: 0 5%;
+}
+.yachtInfo h1{
+  text-align: center;
+}
+.yachtInfo .yachtImages{
+  padding: 20px 0;
+  display: flex;
+  overflow-x: auto; 
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+.yachtInfo .yachtImages::-webkit-scrollbar {
+  width: 12px; 
+  height: 15px; 
+}
+/* .scroll-btn {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 10px;
+  position: relative;
+  z-index: 1; 
+}
+
+.scroll-btn:hover {
+  background-color: #0077b6;
+}
+
+.scroll-btn:active {
+  background-color: #023e8a;
+}
+
+.prev {
+  margin-left: 0;
+}
+
+.next {
+  margin-right: 0;
+} */
+
+.yachtInfo .yachtImages::-webkit-scrollbar-track {
+  background: #e0f7fa; 
+  border-radius: 10px; 
+}
+
+.yachtInfo .yachtImages::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #0077b6, #00b4d8);
+  border-radius: 10px; 
+  border: 2px solid #e0f7fa; 
+}
+
+.yachtInfo .yachtImages::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #023e8a, #0096c7);
+}
+
+.yachtInfo .yachtImages img{
+  height: 250px;
+  margin: 0 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.flex{
+  display: flex;
+}
+.yachtDetail{
+  line-height: 1.6;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+overflow: hidden;
+}
+.yachtDetail h1 {
+text-align: center;
+color: #333;
+padding: 16px 0;
+}
+.yachtDetail h2 {
+color: #555;
+}
+.yachtDetail ul {
+list-style-type: none;
+padding: 0;
+}
+.yachtDetail li {
+margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .allYachtsInfo{
+    padding-top: 12%;
+  }
+}
+@media (max-width: 900px) {
+  .allYachtsInfo{
+    padding-top: 15%;
+  }
+}
+@media (max-width: 700px) {
+  .allYachtsInfo{
+    padding-top: 20%;
+  }
+  .yachtInfo .yachtImages img{
+    height: 180px;
+  }
+  .yachtInfo{
+    padding: 0 3%;
+  }
+  .yachtInfo h1{
+    font-size: 26px;
+  }
+  .yachtDetail h1{
+    font-size: 23px;
+    padding: 5px 0;
+  }
+  .yachtDetail h2 {
+    font-size: 20px;
+    padding: 5px 0;
+    }
+  .yachtDetail li {
+    font-size: 14px;
+    }
+}
+@media (max-width: 550px) {
+  .allYachtsInfo{
+    padding-top: 27%;
+  }
+}
+@media (max-width: 500px) {
+  .allYachtsInfo{
+    padding-top: 33%;
+  }
+}

@@ -1,0 +1,23 @@
+.watersports {
+  /* height: 500px; */
+  width: 500px;
+  margin: 15px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.watersports img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.link{
+  color: #fff;
+}
+.watersports-container {
+  background-color: #D1D1D1;
+  background: linear-gradient(#00000091, #00000091), url('../../assets/WaterSports/flyboat.jpg');
+  background-position: center;
+  background-size: cover;
+}

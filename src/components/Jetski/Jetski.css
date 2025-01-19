@@ -1,0 +1,7 @@
+.jetski-container {
+  background-color: #D1D1D1;
+  /* background-color: red; */
+  background: linear-gradient(#00000091, #00000091), url('../../assets/WaterSports/Jetski.jpg');
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,176 @@
+
+.newYear {
+  padding: 9% 5%;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.newYear h1 {
+  padding: 3% 5%;
+  color: #555555; 
+  text-align: center;
+}
+
+.newYear-content {
+  padding: 0 5%;
+}
+
+.newYear-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newYear-images img {
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.newYear-content p {
+  padding: 22px 0;
+  font-size: 18px;
+}
+
+.newYear-content h1 {
+  color: #555555;
+  padding: 1%;
+}
+
+.newYear-content ul li {
+  padding: 7px 0;
+  font-size: 19px;
+  list-style: none;
+}
+
+.newYear-content .headline {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.newYear-page2 {
+  padding: 1% 5% 2%;
+  background-color: #E4E4E4;
+}
+
+.newYear-page2 .headline {
+  padding: 5% 0 1%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #070838;
+  text-decoration: underline;
+}
+
+.newYear-page2 h2 {
+  color: #555555;
+  padding: 2% 0;
+}
+
+.newYear-page2 p {
+  font-size: 18px;
+}
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.packages ul {
+  width: 50%;
+  margin: 25px 0;
+}
+
+.packages ul span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.packages ul li {
+  font-size: 16px;
+  font-weight: 500;
+  list-style-type: square;
+  padding-top: 10px;
+}
+
+.packages span {
+  font-weight: 600;
+  padding: 3% 0;  
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btns ul {
+  display: flex;
+}
+
+.btns ul li {
+  list-style: none;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 0 1.2rem;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+
+.btns ul li a {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: .6rem 1.8rem;
+  transition: all .3s;
+}
+
+@media (max-width: 1050px) {
+  .newYear {
+    padding: 15% 5% 10%;
+  }
+  .newYear-images img {
+    height: 380px;
+  }
+}
+
+@media (max-width: 800px) {
+  .newYear {
+    padding: 20% 5% 10%;
+  }
+  .newYear-images img {
+    height: 280px;
+  }
+  .packages ul {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .newYear {
+    padding: 25% 5% 10%;
+  }
+  .newYear-images img {
+    height: 250px;
+  }
+  .newYear-page2{
+    padding: 5% 5% 2%;
+  }
+  .newYear-page2 .headline {
+    padding: 4% 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .newYear {
+    padding: 32% 5% 10%;
+  }
+  .newYear-images img {
+    height: 200px;
+  }
+}

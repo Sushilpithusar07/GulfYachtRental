@@ -1,0 +1,12 @@
+.about-us-container {
+  background-color: #D1D1D1;
+  background: linear-gradient(#00000091, #00000091), url('../../assets/120 feet/feet120_1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.index{
+  color: rgba(255, 255, 255, 0.884) !important;
+}
+.centered-text {
+  text-align: center;
+}

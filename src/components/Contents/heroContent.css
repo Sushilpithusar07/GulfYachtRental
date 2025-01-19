@@ -1,0 +1,44 @@
+body {
+   color: #333;
+}
+
+.hero-content header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content header h1 {
+  margin: 0;
+}
+
+.hero-content section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.hero-content section h2 {
+  color: #004080;
+}
+
+.hero-content section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hero-content section ul li {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.hero-content footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

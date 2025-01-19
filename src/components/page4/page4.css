@@ -1,0 +1,35 @@
+.page4{
+  /* text-align: center; */
+  padding: 6rem 3rem 0;
+}
+.page4 h1{
+  color: #555555;
+  padding: 20px 0;
+}
+.page4 p{
+  padding-bottom: 40px;
+  line-height: 1.4;
+}
+
+@media (max-width: 800px) {
+  .page4{
+    padding: 6rem 2rem;
+  }
+  .page4 h1{
+    font-size: 25px;
+  }
+  .page4 p{
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .page4{
+    padding: 3rem 2rem ;
+  }
+  .page4 h1{
+    font-size: 25px;
+  }
+  .page4 p{
+    font-size: 14px;
+  }
+}
